@@ -10,7 +10,6 @@ function FriendList(){
     {user: "user3", displayName: "พลทหารแดง"},
     {user: "user4", displayName: "ศาตราจารย์นายกรัฐมนตรีดอกเตอร์เขียว"},
   ]);
-
   return(
     <App>
 <div className="friend-list">
@@ -26,5 +25,4 @@ function FriendList(){
     </App>
   )
 }
-
 export default FriendList;
